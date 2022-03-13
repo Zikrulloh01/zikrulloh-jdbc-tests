@@ -3,7 +3,6 @@ package api_tests;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
-import io.restassured.response.ValidatableResponse;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import static io.restassured.RestAssured.*;
@@ -32,7 +31,7 @@ public class simple_GetRequest {
         //Verify status code 200 with assertion
         Assert.assertEquals(response.getStatusCode(),200);
 
-        Assert.assertEquals(response.getContentType(), "application/xml");
+        Assert.assertEquals(response.getContentType(), "application/json");
         System.out.println(response.getContentType());
 
     }
@@ -53,14 +52,8 @@ public class simple_GetRequest {
     public void test4(){
         Response response = given().accept(ContentType.JSON).when()
                 .get(hrUrl + "/2");
-
-
         Assert.assertEquals(response.getStatusCode(),200);
-
         Assert.assertEquals(response.getContentType(), "application/json");
-
-
         Assert.assertTrue(response.body().asString().contains("Americas"));
-
     }
 }
