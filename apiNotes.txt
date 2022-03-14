@@ -109,6 +109,16 @@ In Headers module:
 
 
 
+************************************************************** Parameters ***************************************************************************************************************
+
+
+
+There are 2 types of Parameters :
+                                 1. query parameters ----> whenever there is a ?(question mark) in url that means the end of the actual url
+                                                           - api/spartans/search? -->> url ends at search the rest of them will be query parameter
+                                                           - api/spartans/search?gender=Female -->> returns all female spartans
+
+                                 2. path parameters ----> is part of the url <api/spartans/id> api/spartans/12 -- gets a spartan with id=12
 
 
 
