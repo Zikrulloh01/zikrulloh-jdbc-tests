@@ -93,6 +93,38 @@ HTTP Status code is the first test that we need make sure it is successful
 ********* Test step to verify :
                                - status code success 200
                                - response body verification
+                               - verify content type xml, json
+
+************************************************************** Headers ***************************************************************************************************************
+
+**** Headers ----> additional information about request and response
+             it works like a key and value structure
+
+
+
+
+Accept, application/json -------> ask api to send response json content
+Accept, application/xml -------> ask api to send response in xml format
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
