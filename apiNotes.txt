@@ -101,10 +101,18 @@ HTTP Status code is the first test that we need make sure it is successful
              it works like a key and value structure
 
 
+In Headers module:
 
 
-Accept, application/json -------> ask api to send response json content
-Accept, application/xml -------> ask api to send response in xml format
+                    Accept, application/json -------> ask api to send response json content
+                    Accept, application/xml -------> ask api to send response in xml format
+
+
+
+
+
+
+
 
 
 
