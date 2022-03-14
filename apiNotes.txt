@@ -1,0 +1,124 @@
+API --> application programming interface
+        - it helps different applications to communicate and share data with each other
+        - API is a middle man
+
+                       request |----->>>>           |----->>>>  BRITISH  AIRWAYS
+        SKYSCANNER ---------------->> API ----------|-->>>>>    TURKISH AIRLINES
+                       response <<----------        |----->>>>  EMIRATES AIRLINES
+
+        Skyscanner gets different airline data using their apis
+
+
+
+API methods
+    most common ones
+        - get  ----->> retrieve/get a piece of data
+        - post ----->> send data
+        - put ------>> update a piece of data
+        - delete ---->> delete/remove data
+
+
+    *** Java uses selenium as an API to interact with browser
+    *** Java uses JDBC as an API to interact with SQL
+
+
+There are 2 different types of APIs
+    - SOAP >>> is not very popular in today's tech world --->> xml format
+    - REST -- >> it uses http protocol
+            - it supports any machine-readable format xml, any others, especially JSON
+
+
+
+
+
+
+Microservices ---------->>> small services providing/designing a functionality of a software.
+                Amazon ->>> Search, Account, Shipment, Payment
+                           - These microservices are small pieces of data (api), they can be used to build amazon database
+                           for any type of software machine like web, phone, ipad.
+
+                       ** So basically it just needs to be connected with database using microservice  or api
+                       and all types can use same database.
+
+
+
+
+
+=============================================================================================================================================================================================================
+************************************************************** What is API testing? Why do we need to  test ? ********************************************************************************
+
+
+API testing -------------->>>> is completely different from UI testing it concentrates on software architecture rather than its look and design.
+
+
+Api testing requires an application to interact with api.
+In order to test api, you will need to:
+                                        - use testing tool to drive api  ------ Postman
+                                        - write your own code
+                                            - using restAssured Library and java code
+
+
+
+*** Api testing is faster than UI testing
+*** It can be tested before UI is built, in the earlier lifecycle. (save cost and time)
+*** Becoming more popular on market
+*** Time efficiency
+*** Cost effective/ Save costs
+
+
+
+=============================================================================================================================================================================================================
+************************************************************** Api test setup/Understanding the documentation  ***************************************************************************************************************
+
+We need to know api methods and endpoints
+    - read api documentation
+    - swagger tools
+
+
+We use POSTMAN to test apis
+
+
+
+
+HTTP Status code is the first test that we need make sure it is successful
+    200 ---> OK <-- 2XX
+    404 ---> Not found (our side error) <--- 4XX
+    500 ---> Server/Api error (not our side) <--- 5XX
+
+
+****** Swagger api documentation tool gives all information about how to interact with the api, and we follow the given structure and rules
+
+
+
+********* Test step to verify :
+                               - status code success 200
+                               - response body verification
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
