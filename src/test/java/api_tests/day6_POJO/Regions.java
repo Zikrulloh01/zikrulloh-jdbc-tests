@@ -1,29 +1,21 @@
-
 package api_tests.day6_POJO;
 
-import java.util.List;
-import com.google.gson.annotations.Expose;
+import java.util.List;;
 import com.google.gson.annotations.SerializedName;
 
 public class Regions {
 
     @SerializedName("items")
-    @Expose
     private List<Item> items = null;
     @SerializedName("hasMore")
-    @Expose
     private Boolean hasMore;
     @SerializedName("limit")
-    @Expose
     private Integer limit;
     @SerializedName("offset")
-    @Expose
     private Integer offset;
     @SerializedName("count")
-    @Expose
     private Integer count;
     @SerializedName("links")
-    @Expose
     private List<Link__1> links = null;
 
     /**

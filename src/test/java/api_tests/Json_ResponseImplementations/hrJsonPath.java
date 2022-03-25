@@ -1,4 +1,4 @@
-package api_tests;
+package api_tests.Json_ResponseImplementations;
 
 import io.restassured.http.ContentType;
 import io.restassured.path.json.JsonPath;

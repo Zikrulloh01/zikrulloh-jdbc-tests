@@ -1,4 +1,6 @@
 package api_tests.day6_POJO;
+
+
 import com.google.gson.Gson;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;

@@ -1,4 +1,4 @@
-package api_tests;
+package api_tests.Json_ResponseImplementations;
 
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;

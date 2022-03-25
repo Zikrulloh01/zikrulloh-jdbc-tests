@@ -1,16 +1,13 @@
-
 package api_tests.day6_POJO;
 
-import com.google.gson.annotations.Expose;
-import com.google.gson.annotations.SerializedName;
 
+
+import com.google.gson.annotations.SerializedName;
 public class Link {
 
     @SerializedName("rel")
-    @Expose
     private String rel;
     @SerializedName("href")
-    @Expose
     private String href;
 
     /**

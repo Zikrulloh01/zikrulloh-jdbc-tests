@@ -1,6 +1,5 @@
 package api_tests.day6_POJO;
 
-import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
 import java.util.List;
@@ -8,13 +7,10 @@ import java.util.List;
 public class Item {
 
     @SerializedName("region_id")
-    @Expose
     private Integer regionId;
     @SerializedName("region_name")
-    @Expose
     private String regionName;
     @SerializedName("links")
-    @Expose
     private List<Link> links = null;
 
     /**

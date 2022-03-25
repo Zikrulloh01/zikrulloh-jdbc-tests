@@ -21,6 +21,10 @@ public class Spartan {
         this.phone = phone;
     }
 
+    public Spartan(){
+
+    }
+
     public int getId() {
         return id;
     }
